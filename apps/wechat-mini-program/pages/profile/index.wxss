@@ -1,0 +1,7 @@
+.account-card { margin-top: 32rpx; padding: 28rpx; border-radius: 28rpx; color: #fff; background: #11110f; display: flex; align-items: center; gap: 22rpx; }
+.avatar { width: 92rpx; height: 92rpx; border-radius: 46rpx; color: #fff; background: #f04422; font-size: 28rpx; font-weight: 900; display: flex; align-items: center; justify-content: center; }
+.profile-row { min-height: 84rpx; border-bottom: 2rpx solid #e0dace; display: flex; align-items: center; justify-content: space-between; }
+.profile-row:last-child { border-bottom: 0; }
+.profile-row text:last-child { font-weight: 850; }
+.settings-row { min-height: 98rpx; width: 100%; margin: 14rpx 0 0; padding: 0 24rpx; border-radius: 20rpx; border: 2rpx solid #d4cec1; background: #fbf9f2; font-size: 29rpx; font-weight: 750; display: flex; align-items: center; justify-content: space-between; }
+.settings-row::after { border: none; }

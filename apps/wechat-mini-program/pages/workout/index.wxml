@@ -1,0 +1,63 @@
+<view class="page">
+  <block wx:if="{{!workout}}">
+    <text class="eyebrow">ONE SET</text>
+    <view class="title">还没有开始训练</view>
+    <view class="subtitle">到“今天”说一句训练需求，10 秒内开始。</view>
+    <button class="primary" style="margin-top:40rpx;" open-type="none" bindtap="done">去生成训练</button>
+  </block>
+
+  <block wx:elif="{{finished}}">
+    <text class="eyebrow">WORKOUT COMPLETE</text>
+    <view class="title">训练完成</view>
+    <view class="completion-grid">
+      <view><view class="metric">{{summary.durationMinutes}}</view><text class="muted">分钟</text></view>
+      <view><view class="metric">{{summary.setCount}}</view><text class="muted">完成组</text></view>
+      <view class="wide"><view class="metric">{{summary.totalVolumeKg}}</view><text class="muted">KG 总容量</text></view>
+    </view>
+    <button class="primary" style="margin-top:36rpx;" bindtap="done">完成</button>
+    <button class="secondary" style="margin-top:16rpx;" open-type="share">生成训练战报</button>
+  </block>
+
+  <block wx:else>
+    <view class="row between">
+      <text class="eyebrow">{{workout.name}}</text>
+      <text class="muted" style="font-size:24rpx;">{{currentIndex + 1}} / {{sets.length}} 组</text>
+    </view>
+    <view class="exercise-name">{{sets[currentIndex].exerciseName}}</view>
+    <view class="muted" style="margin-top:10rpx;">第 {{sets[currentIndex].setNumber}} 组 · 目标 {{sets[currentIndex].repsTarget}}</view>
+    <view class="last-set"><text class="muted">上次</text><text style="font-weight:850;">{{lastSetText}}</text></view>
+
+    <view wx:if="{{restLeft > 0}}" class="rest-card">
+      <view><text class="eyebrow">REST</text><view class="metric" style="margin-top:10rpx;">{{restLeft}}<text style="font-size:28rpx;"> 秒</text></view></view>
+      <button class="quiet" bindtap="skipRest">跳过</button>
+    </view>
+
+    <view class="set-editor">
+      <view class="number-field">
+        <label class="label" for="weight">重量</label>
+        <view class="row"><input id="weight" class="big-input" type="digit" inputmode="decimal" value="{{weightKg}}" data-key="weightKg" bindinput="setNumber" /><text class="unit">kg</text></view>
+      </view>
+      <view class="number-field">
+        <label class="label" for="reps">次数</label>
+        <view class="row"><input id="reps" class="big-input" type="number" inputmode="numeric" value="{{reps}}" data-key="reps" bindinput="setNumber" /><text class="unit">次</text></view>
+      </view>
+    </view>
+
+    <button class="quiet advanced-toggle" bindtap="toggleAdvanced">{{showAdvanced ? '收起高级记录' : 'RPE / RIR / 组类型'}}</button>
+    <view wx:if="{{showAdvanced}}" class="card advanced">
+      <view class="set-editor compact">
+        <view><label class="label">RPE</label><input class="input" type="digit" value="{{rpe}}" data-key="rpe" bindinput="setNumber" /></view>
+        <view><label class="label">RIR</label><input class="input" type="digit" value="{{rir}}" data-key="rir" bindinput="setNumber" /></view>
+      </view>
+      <view class="chip-row">
+        <button class="chip {{setType === 'warmup' ? 'active' : ''}}" data-value="warmup" bindtap="chooseSetType">热身</button>
+        <button class="chip {{setType === 'working' ? 'active' : ''}}" data-value="working" bindtap="chooseSetType">正式</button>
+        <button class="chip {{setType === 'failure' ? 'active' : ''}}" data-value="failure" bindtap="chooseSetType">力竭</button>
+        <button class="chip {{setType === 'drop' ? 'active' : ''}}" data-value="drop" bindtap="chooseSetType">递减</button>
+      </view>
+    </view>
+    <view wx:if="{{error}}" class="status danger" style="margin-top:16rpx;">{{error}}</view>
+    <button class="complete-button" loading="{{saving}}" disabled="{{saving}}" bindtap="completeSet">✓ 完成本组</button>
+    <button class="finish-link" bindtap="finishWorkout">提前结束训练</button>
+  </block>
+</view>

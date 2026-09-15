@@ -1,0 +1,11 @@
+export type CorrectionSource="form"|"posture";
+export type CorrectionCycle={id:string;source:CorrectionSource;metricKeys:string[];baselineScore:number;baselineScanId:string;createdAt:string;dueAt:string;targetWorkouts:number;workoutsCompleted:number;lastWorkoutAt:string|null;status:"active"|"completed";latestScore:number|null;completedAt:string|null};
+export type CorrectionCycleState=CorrectionCycle&{daysLeft:number;rescanReady:boolean;improvement:number|null};
+export const CORRECTION_CYCLE_KEY:string;
+export const CORRECTION_CYCLE_EVENT:string;
+export function normalizeCorrectionCycle(value:unknown):CorrectionCycle|null;
+export function readCorrectionCycle():CorrectionCycle|null;
+export function startCorrectionCycle(input:{source:CorrectionSource;metricKeys:string[];baselineScore:number;baselineScanId?:string;createdAt?:string;targetWorkouts?:number;rescanAfterDays?:number}):CorrectionCycle|null;
+export function recordCorrectionWorkout(completedAt?:string):CorrectionCycle|null;
+export function recordCorrectionRescan(input:{source:CorrectionSource;score:number;scanId?:string;scannedAt?:string}):CorrectionCycle|null;
+export function correctionCycleState(cycle:unknown,now?:number):CorrectionCycleState|null;

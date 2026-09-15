@@ -1,0 +1,6 @@
+.segmented { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8rpx; margin-top: 32rpx; padding: 8rpx; border-radius: 20rpx; background: #e7e1d6; }
+.segmented button { min-height: 72rpx; margin: 0; padding: 0 8rpx; border-radius: 15rpx; border: 0; background: transparent; font-size: 24rpx; font-weight: 750; }
+.segmented button::after { border: none; }
+.segmented .active { background: #fffdf8; color: #11110f; box-shadow: 0 4rpx 14rpx rgba(30,25,16,.08); }
+.start-small { width: 136rpx; margin: 0; }
+.preview-row { min-height: 94rpx; padding: 18rpx 0; border-bottom: 2rpx solid #e0dace; display: flex; align-items: center; justify-content: space-between; gap: 20rpx; }

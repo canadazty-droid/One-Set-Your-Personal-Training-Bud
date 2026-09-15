@@ -1,0 +1,1 @@
+ALTER TABLE `workouts` ADD `session_rating` text DEFAULT 'right' NOT NULL;

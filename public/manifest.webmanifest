@@ -1,0 +1,28 @@
+{
+  "name": "练一下 · ONE SET",
+  "short_name": "练一下",
+  "description": "一键生成训练，按组完成并记录进步。",
+  "start_url": "/?source=installed-app",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "orientation": "portrait-primary",
+  "background_color": "#f3eee4",
+  "theme_color": "#f3eee4",
+  "lang": "zh-CN",
+  "categories": ["fitness", "health", "sports"],
+  "icons": [
+    {
+      "src": "/app-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/app-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

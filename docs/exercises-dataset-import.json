@@ -1,0 +1,1220 @@
+{
+  "generatedAt": "2026-09-02T05:08:50.175Z",
+  "sourceRepository": "https://github.com/hasaneyldrm/exercises-dataset",
+  "sourceCommit": "7455efae41b330c265e7cd4b78dfa848e7ce5ebd",
+  "sourceExerciseCount": 1324,
+  "secondarySourceRepository": "https://github.com/yuhonas/free-exercise-db",
+  "secondarySourceCommit": "a859101d633a01c4a1a920d6a8ce41dabba0705f",
+  "secondarySourceLicense": "Unlicense / public domain dedication",
+  "secondarySourceExerciseCount": 876,
+  "tertiarySourceRepository": "https://github.com/wger-project/wger",
+  "tertiarySourceCommit": "d1fb2489ccf472894cef34ab8fb37ad9b9f35635",
+  "tertiarySourceDataUrl": "https://wger.de/api/v2/exerciseinfo/?limit=1000",
+  "tertiarySourceLicense": "Per-record CC0, CC-BY-SA 3.0, or CC-BY-SA 4.0",
+  "tertiarySourceExerciseCount": 871,
+  "localExerciseCount": 107,
+  "approvedExactMatches": 41,
+  "unmatched": [
+    {
+      "id": "Wall_Push-Up",
+      "zh": "墙面俯卧撑",
+      "en": "Wall Push-up",
+      "suggestions": [
+        {
+          "id": "0659",
+          "name": "push-up (wall)",
+          "equipment": "body weight",
+          "score": 1
+        },
+        {
+          "id": "0658",
+          "name": "push-up (wall) v. 2",
+          "equipment": "body weight",
+          "score": 1
+        },
+        {
+          "id": "0662",
+          "name": "push-up",
+          "equipment": "body weight",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "id": "Kneeling_Push-Up",
+      "zh": "跪姿俯卧撑",
+      "en": "Kneeling Push-up",
+      "suggestions": [
+        {
+          "id": "3211",
+          "name": "kneeling push-up (male)",
+          "equipment": "body weight",
+          "score": 0.6666666666666666
+        },
+        {
+          "id": "0662",
+          "name": "push-up",
+          "equipment": "body weight",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "id": "Bodyweight_Box_Squat",
+      "zh": "徒手箱式深蹲",
+      "en": "Bodyweight Box Squat",
+      "suggestions": [
+        {
+          "id": "3543",
+          "name": "bodyweight drop jump squat",
+          "equipment": "body weight",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "id": "Supported_Split_Squat",
+      "zh": "扶物分腿蹲",
+      "en": "Supported Split Squat",
+      "suggestions": [
+        {
+          "id": "2810",
+          "name": "barbell split squat v. 2",
+          "equipment": "barbell",
+          "score": 0.5
+        },
+        {
+          "id": "2803",
+          "name": "dumbbell supported squat",
+          "equipment": "dumbbell",
+          "score": 0.5
+        },
+        {
+          "id": "0809",
+          "name": "suspended split squat",
+          "equipment": "body weight",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "id": "Bird_Dog",
+      "zh": "鸟狗式",
+      "en": "Bird Dog",
+      "suggestions": []
+    },
+    {
+      "id": "Kneeling_Side_Plank",
+      "zh": "跪姿侧平板",
+      "en": "Kneeling Side Plank",
+      "suggestions": [
+        {
+          "id": "0664",
+          "name": "push-up to side plank",
+          "equipment": "body weight",
+          "score": 0.5
+        },
+        {
+          "id": "3544",
+          "name": "bodyweight incline side plank",
+          "equipment": "body weight",
+          "score": 0.4
+        },
+        {
+          "id": "1775",
+          "name": "side plank hip adduction",
+          "equipment": "body weight",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "id": "Bodyweight_Squat",
+      "zh": "徒手深蹲",
+      "en": "Bodyweight Squat",
+      "suggestions": [
+        {
+          "id": "3543",
+          "name": "bodyweight drop jump squat",
+          "equipment": "body weight",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "id": "Butt_Lift_Bridge",
+      "zh": "双腿臀桥",
+      "en": "Glute Bridge",
+      "suggestions": [
+        {
+          "id": "1409",
+          "name": "barbell glute bridge",
+          "equipment": "barbell",
+          "score": 0.6666666666666666
+        },
+        {
+          "id": "3561",
+          "name": "glute bridge march",
+          "equipment": "body weight",
+          "score": 0.6666666666666666
+        },
+        {
+          "id": "3013",
+          "name": "low glute bridge on floor",
+          "equipment": "body weight",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "id": "Triceps_Pushdown_-_Rope_Attachment",
+      "zh": "绳索下压",
+      "en": "Rope Triceps Pushdown",
+      "suggestions": [
+        {
+          "id": "0241",
+          "name": "cable triceps pushdown (v-bar)",
+          "equipment": "cable",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "id": "Hyperextensions_Back_Extensions",
+      "zh": "罗马椅背伸",
+      "en": "Back Extension",
+      "suggestions": [
+        {
+          "id": "0573",
+          "name": "lever back extension",
+          "equipment": "leverage machine",
+          "score": 0.6666666666666666
+        },
+        {
+          "id": "1314",
+          "name": "back extension on exercise ball",
+          "equipment": "stability ball",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "id": "Crunches",
+      "zh": "基础卷腹",
+      "en": "Crunch",
+      "suggestions": [
+        {
+          "id": "0274",
+          "name": "crunch floor",
+          "equipment": "body weight",
+          "score": 0.5
+        },
+        {
+          "id": "0277",
+          "name": "decline crunch",
+          "equipment": "body weight",
+          "score": 0.5
+        },
+        {
+          "id": "2429",
+          "name": "frog crunch",
+          "equipment": "body weight",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "id": "Seated_Dumbbell_Press",
+      "zh": "坐姿哑铃推举",
+      "en": "Seated Dumbbell Press",
+      "suggestions": [
+        {
+          "id": "0290",
+          "name": "dumbbell bench seated press",
+          "equipment": "dumbbell",
+          "score": 0.75
+        },
+        {
+          "id": "0388",
+          "name": "dumbbell seated alternate press",
+          "equipment": "dumbbell",
+          "score": 0.75
+        },
+        {
+          "id": "0405",
+          "name": "dumbbell seated shoulder press",
+          "equipment": "dumbbell",
+          "score": 0.75
+        }
+      ]
+    },
+    {
+      "id": "Standing_Calf_Raises",
+      "zh": "站姿提踵",
+      "en": "Standing Calf Raise",
+      "suggestions": [
+        {
+          "id": "1372",
+          "name": "barbell standing calf raise",
+          "equipment": "barbell",
+          "score": 0.75
+        },
+        {
+          "id": "1373",
+          "name": "bodyweight standing calf raise",
+          "equipment": "body weight",
+          "score": 0.75
+        },
+        {
+          "id": "1375",
+          "name": "cable standing calf raise",
+          "equipment": "cable",
+          "score": 0.75
+        }
+      ]
+    },
+    {
+      "id": "Barbell_Hip_Thrust",
+      "zh": "杠铃臀推",
+      "en": "Barbell Hip Thrust",
+      "suggestions": [
+        {
+          "id": "0058",
+          "name": "barbell lying lifting (on hip)",
+          "equipment": "barbell",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "id": "Leg_Press",
+      "zh": "腿举",
+      "en": "Leg Press",
+      "suggestions": [
+        {
+          "id": "0739",
+          "name": "sled 45в° leg press",
+          "equipment": "sled machine",
+          "score": 0.6666666666666666
+        },
+        {
+          "id": "0760",
+          "name": "smith leg press",
+          "equipment": "smith machine",
+          "score": 0.6666666666666666
+        },
+        {
+          "id": "2287",
+          "name": "lever alternate leg press",
+          "equipment": "leverage machine",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "id": "Calf_Raise_On_A_Dumbbell",
+      "zh": "单腿哑铃提踵",
+      "en": "Single-leg Dumbbell Calf Raise",
+      "suggestions": [
+        {
+          "id": "0409",
+          "name": "dumbbell single leg calf raise",
+          "equipment": "dumbbell",
+          "score": 1
+        },
+        {
+          "id": "0727",
+          "name": "single leg calf raise (on a dumbbell)",
+          "equipment": "dumbbell",
+          "score": 1
+        },
+        {
+          "id": "0999",
+          "name": "band single leg calf raise",
+          "equipment": "band",
+          "score": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "id": "Dumbbell_Flyes",
+      "zh": "哑铃飞鸟",
+      "en": "Dumbbell Flyes",
+      "suggestions": [
+        {
+          "id": "0331",
+          "name": "dumbbell incline twisted flyes",
+          "equipment": "dumbbell",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "id": "Full_Range-Of-Motion_Lat_Pulldown",
+      "zh": "高位下拉",
+      "en": "Lat Pulldown",
+      "suggestions": [
+        {
+          "id": "0197",
+          "name": "cable pulldown (pro lat bar)",
+          "equipment": "cable",
+          "score": 0.4
+        },
+        {
+          "id": "0673",
+          "name": "reverse grip machine lat pulldown",
+          "equipment": "leverage machine",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "id": "Arnold_Dumbbell_Press",
+      "zh": "阿诺德推举",
+      "en": "Arnold Dumbbell Press",
+      "suggestions": [
+        {
+          "id": "2137",
+          "name": "dumbbell arnold press",
+          "equipment": "dumbbell",
+          "score": 1
+        },
+        {
+          "id": "0287",
+          "name": "dumbbell arnold press v. 2",
+          "equipment": "dumbbell",
+          "score": 1
+        },
+        {
+          "id": "0438",
+          "name": "dumbbell w-press",
+          "equipment": "dumbbell",
+          "score": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "id": "Front_Dumbbell_Raise",
+      "zh": "哑铃前平举",
+      "en": "Front Dumbbell Raise",
+      "suggestions": [
+        {
+          "id": "0310",
+          "name": "dumbbell front raise",
+          "equipment": "dumbbell",
+          "score": 1
+        },
+        {
+          "id": "0309",
+          "name": "dumbbell front raise v. 2",
+          "equipment": "dumbbell",
+          "score": 1
+        },
+        {
+          "id": "0335",
+          "name": "dumbbell lateral to front raise",
+          "equipment": "dumbbell",
+          "score": 0.75
+        }
+      ]
+    },
+    {
+      "id": "Face_Pull",
+      "zh": "绳索面拉",
+      "en": "Face Pull",
+      "suggestions": [
+        {
+          "id": "3418",
+          "name": "l-pull-up",
+          "equipment": "body weight",
+          "score": 0.5
+        },
+        {
+          "id": "0652",
+          "name": "pull-up",
+          "equipment": "body weight",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "id": "Close-Grip_Push-Up_off_of_a_Dumbbell",
+      "zh": "窄距哑铃俯卧撑",
+      "en": "Close-grip Dumbbell Push-up",
+      "suggestions": [
+        {
+          "id": "0660",
+          "name": "push-up close-grip off dumbbell",
+          "equipment": "dumbbell",
+          "score": 0.8
+        },
+        {
+          "id": "0259",
+          "name": "close-grip push-up",
+          "equipment": "body weight",
+          "score": 0.75
+        },
+        {
+          "id": "0975",
+          "name": "band close-grip push-up",
+          "equipment": "band",
+          "score": 0.6
+        }
+      ]
+    },
+    {
+      "id": "Plank",
+      "zh": "前臂平板支撑",
+      "en": "Forearm Plank",
+      "suggestions": []
+    },
+    {
+      "id": "Cable_Crunch",
+      "zh": "跪姿绳索卷腹",
+      "en": "Cable Crunch",
+      "suggestions": [
+        {
+          "id": "0175",
+          "name": "cable kneeling crunch",
+          "equipment": "cable",
+          "score": 0.6666666666666666
+        },
+        {
+          "id": "0873",
+          "name": "cable reverse crunch",
+          "equipment": "cable",
+          "score": 0.6666666666666666
+        },
+        {
+          "id": "0212",
+          "name": "cable seated crunch",
+          "equipment": "cable",
+          "score": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "id": "Single_Leg_Glute_Bridge",
+      "zh": "单腿臀桥",
+      "en": "Single-leg Glute Bridge",
+      "suggestions": [
+        {
+          "id": "3645",
+          "name": "single leg bridge with outstretched leg",
+          "equipment": "body weight",
+          "score": 0.5
+        },
+        {
+          "id": "1409",
+          "name": "barbell glute bridge",
+          "equipment": "barbell",
+          "score": 0.4
+        },
+        {
+          "id": "3561",
+          "name": "glute bridge march",
+          "equipment": "body weight",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "id": "Dumbbell_Floor_Press",
+      "zh": "哑铃地板卧推",
+      "en": "Dumbbell Floor Press",
+      "suggestions": [
+        {
+          "id": "0438",
+          "name": "dumbbell w-press",
+          "equipment": "dumbbell",
+          "score": 0.6666666666666666
+        },
+        {
+          "id": "2137",
+          "name": "dumbbell arnold press",
+          "equipment": "dumbbell",
+          "score": 0.5
+        },
+        {
+          "id": "0287",
+          "name": "dumbbell arnold press v. 2",
+          "equipment": "dumbbell",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "id": "Half-Kneeling_Single-Arm_Dumbbell_Press",
+      "zh": "半跪单臂哑铃推举",
+      "en": "Half-kneeling Single-arm Dumbbell Press",
+      "suggestions": [
+        {
+          "id": "1281",
+          "name": "dumbbell incline one arm press",
+          "equipment": "dumbbell",
+          "score": 0.5714285714285714
+        },
+        {
+          "id": "0343",
+          "name": "dumbbell lying one arm press",
+          "equipment": "dumbbell",
+          "score": 0.5714285714285714
+        },
+        {
+          "id": "0342",
+          "name": "dumbbell lying one arm press v. 2",
+          "equipment": "dumbbell",
+          "score": 0.5714285714285714
+        }
+      ]
+    },
+    {
+      "id": "Supported_Low_Step-Up",
+      "zh": "扶物低台阶上步",
+      "en": "Supported Low Step-up",
+      "suggestions": []
+    },
+    {
+      "id": "Cable_Pallof_Press",
+      "zh": "绳索 Pallof 抗旋推",
+      "en": "Cable Pallof Press",
+      "suggestions": [
+        {
+          "id": "0151",
+          "name": "cable bench press",
+          "equipment": "cable",
+          "score": 0.5
+        },
+        {
+          "id": "1261",
+          "name": "cable decline press",
+          "equipment": "cable",
+          "score": 0.5
+        },
+        {
+          "id": "0219",
+          "name": "cable shoulder press",
+          "equipment": "cable",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "id": "Side-Lying_Clamshell",
+      "zh": "侧卧蚌式开合",
+      "en": "Side-lying Clamshell",
+      "suggestions": [
+        {
+          "id": "0613",
+          "name": "lying (side) quads stretch",
+          "equipment": "body weight",
+          "score": 0.4
+        },
+        {
+          "id": "1358",
+          "name": "side lying floor stretch",
+          "equipment": "body weight",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "id": "Suitcase_Carry",
+      "zh": "单侧哑铃行走",
+      "en": "Suitcase Carry",
+      "suggestions": []
+    },
+    {
+      "id": "Kettlebell_Suitcase_Carry",
+      "zh": "壶铃单侧负重行走",
+      "en": "Kettlebell Suitcase Carry",
+      "suggestions": []
+    },
+    {
+      "id": "Wall_Slide",
+      "zh": "墙面滑臂",
+      "en": "Wall Slide",
+      "suggestions": []
+    },
+    {
+      "id": "Cable_Pull-Through",
+      "zh": "绳索髋铰链",
+      "en": "Cable Pull-through",
+      "suggestions": [
+        {
+          "id": "0196",
+          "name": "cable pull through (with rope)",
+          "equipment": "cable",
+          "score": 0.6
+        },
+        {
+          "id": "0991",
+          "name": "band pull through",
+          "equipment": "band",
+          "score": 0.5
+        },
+        {
+          "id": "0244",
+          "name": "cable twisting pull",
+          "equipment": "cable",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "id": "Machine_Hip_Abduction",
+      "zh": "坐姿髋外展机",
+      "en": "Seated Hip Abduction",
+      "suggestions": [
+        {
+          "id": "0597",
+          "name": "lever seated hip abduction",
+          "equipment": "leverage machine",
+          "score": 0.75
+        },
+        {
+          "id": "3006",
+          "name": "resistance band seated hip abduction",
+          "equipment": "resistance band",
+          "score": 0.6
+        },
+        {
+          "id": "0710",
+          "name": "side hip abduction",
+          "equipment": "body weight",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "id": "Standing_Cable_Chest_Press",
+      "zh": "站姿绳索推胸",
+      "en": "Standing Cable Chest Press",
+      "suggestions": [
+        {
+          "id": "2144",
+          "name": "cable seated chest press",
+          "equipment": "cable",
+          "score": 0.6
+        },
+        {
+          "id": "3758",
+          "name": "lever standing chest press",
+          "equipment": "leverage machine",
+          "score": 0.6
+        },
+        {
+          "id": "0151",
+          "name": "cable bench press",
+          "equipment": "cable",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "id": "Straight-Arm_Cable_Pulldown",
+      "zh": "直臂绳索下拉",
+      "en": "Straight-arm Cable Pulldown",
+      "suggestions": [
+        {
+          "id": "0238",
+          "name": "cable straight arm pulldown",
+          "equipment": "cable",
+          "score": 1
+        },
+        {
+          "id": "0237",
+          "name": "cable straight arm pulldown (with rope)",
+          "equipment": "cable",
+          "score": 0.6666666666666666
+        },
+        {
+          "id": "3563",
+          "name": "cable one arm pulldown",
+          "equipment": "cable",
+          "score": 0.6
+        }
+      ]
+    },
+    {
+      "id": "Supported_Reverse_Lunge",
+      "zh": "扶物反向弓步",
+      "en": "Supported Reverse Lunge",
+      "suggestions": []
+    },
+    {
+      "id": "Kettlebell_Deadlift",
+      "zh": "壶铃硬拉",
+      "en": "Kettlebell Deadlift",
+      "suggestions": []
+    },
+    {
+      "id": "Assisted_Dip_Machine",
+      "zh": "辅助双杠臂屈伸",
+      "en": "Assisted Dip Machine",
+      "suggestions": [
+        {
+          "id": "0009",
+          "name": "assisted chest dip (kneeling)",
+          "equipment": "leverage machine",
+          "score": 0.4
+        },
+        {
+          "id": "0019",
+          "name": "assisted triceps dip (kneeling)",
+          "equipment": "leverage machine",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "id": "Reverse_Pec_Deck",
+      "zh": "反向蝴蝶机",
+      "en": "Reverse Pec Deck",
+      "suggestions": []
+    },
+    {
+      "id": "Cable_Biceps_Curl",
+      "zh": "站姿绳索弯举",
+      "en": "Cable Biceps Curl",
+      "suggestions": [
+        {
+          "id": "1634",
+          "name": "cable lying bicep curl",
+          "equipment": "cable",
+          "score": 0.75
+        },
+        {
+          "id": "1638",
+          "name": "cable pulldown bicep curl",
+          "equipment": "cable",
+          "score": 0.75
+        },
+        {
+          "id": "0868",
+          "name": "cable curl",
+          "equipment": "cable",
+          "score": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "id": "Neutral-Grip_Lat_Pulldown",
+      "zh": "窄中立握高位下拉",
+      "en": "Neutral-grip Lat Pulldown",
+      "suggestions": [
+        {
+          "id": "0673",
+          "name": "reverse grip machine lat pulldown",
+          "equipment": "leverage machine",
+          "score": 0.5
+        },
+        {
+          "id": "0818",
+          "name": "twin handle parallel grip lat pulldown",
+          "equipment": "cable",
+          "score": 0.42857142857142855
+        },
+        {
+          "id": "0651",
+          "name": "pull up (neutral grip)",
+          "equipment": "body weight",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "id": "Half-Kneeling_Landmine_Press",
+      "zh": "半跪单臂地雷管推举",
+      "en": "Half-kneeling Landmine Press",
+      "suggestions": []
+    },
+    {
+      "id": "Cable_Wood_Chop",
+      "zh": "高位绳索伐木式",
+      "en": "High-to-low Cable Wood Chop",
+      "suggestions": []
+    },
+    {
+      "id": "Cat-Cow",
+      "zh": "猫牛式脊柱活动",
+      "en": "Cat-Cow Mobility",
+      "suggestions": []
+    },
+    {
+      "id": "90-90_Hip_Switch",
+      "zh": "90/90 髋部转换",
+      "en": "90/90 Hip Switch",
+      "suggestions": []
+    },
+    {
+      "id": "Half-Kneeling_Hip-Flexor_Mobilization",
+      "zh": "半跪髋屈肌动态拉伸",
+      "en": "Half-kneeling Hip Flexor Mobilization",
+      "suggestions": []
+    },
+    {
+      "id": "Half-Kneeling_Ankle_Rock",
+      "zh": "半跪踝背屈前移",
+      "en": "Half-kneeling Ankle Rock",
+      "suggestions": []
+    },
+    {
+      "id": "Cable_Rear_Delt_Fly",
+      "zh": "双滑轮后束飞鸟",
+      "en": "Cable Rear Delt Fly",
+      "suggestions": [
+        {
+          "id": "0202",
+          "name": "cable rear delt row (stirrups)",
+          "equipment": "cable",
+          "score": 0.5
+        },
+        {
+          "id": "0203",
+          "name": "cable rear delt row (with rope)",
+          "equipment": "cable",
+          "score": 0.42857142857142855
+        },
+        {
+          "id": "0158",
+          "name": "cable decline fly",
+          "equipment": "cable",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "id": "Incline_Dumbbell_Curl",
+      "zh": "上斜哑铃弯举",
+      "en": "Incline Dumbbell Curl",
+      "suggestions": [
+        {
+          "id": "0318",
+          "name": "dumbbell incline curl",
+          "equipment": "dumbbell",
+          "score": 1
+        },
+        {
+          "id": "0317",
+          "name": "dumbbell incline curl v. 2",
+          "equipment": "dumbbell",
+          "score": 1
+        },
+        {
+          "id": "0315",
+          "name": "dumbbell incline biceps curl",
+          "equipment": "dumbbell",
+          "score": 0.75
+        }
+      ]
+    },
+    {
+      "id": "Bent-Arm_Dumbbell_Pullover",
+      "zh": "屈臂哑铃上拉",
+      "en": "Bent-arm Dumbbell Pullover",
+      "suggestions": [
+        {
+          "id": "1316",
+          "name": "barbell bent arm pullover",
+          "equipment": "barbell",
+          "score": 0.6
+        },
+        {
+          "id": "0433",
+          "name": "dumbbell straight arm pullover",
+          "equipment": "dumbbell",
+          "score": 0.6
+        },
+        {
+          "id": "0034",
+          "name": "barbell decline bent arm pullover",
+          "equipment": "barbell",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "id": "Standing_Calf_Raise",
+      "zh": "站姿提踵",
+      "en": "Standing Calf Raise",
+      "suggestions": [
+        {
+          "id": "1372",
+          "name": "barbell standing calf raise",
+          "equipment": "barbell",
+          "score": 0.75
+        },
+        {
+          "id": "1373",
+          "name": "bodyweight standing calf raise",
+          "equipment": "body weight",
+          "score": 0.75
+        },
+        {
+          "id": "1375",
+          "name": "cable standing calf raise",
+          "equipment": "cable",
+          "score": 0.75
+        }
+      ]
+    },
+    {
+      "id": "Wall_Tibialis_Raise",
+      "zh": "墙面抬脚",
+      "en": "Wall Tibialis Raise",
+      "suggestions": []
+    },
+    {
+      "id": "Wall_Sit",
+      "zh": "靠墙静蹲",
+      "en": "Wall Sit",
+      "suggestions": [
+        {
+          "id": "0624",
+          "name": "march sit (wall)",
+          "equipment": "body weight",
+          "score": 0.6666666666666666
+        },
+        {
+          "id": "0001",
+          "name": "3/4 sit-up",
+          "equipment": "body weight",
+          "score": 0.5
+        },
+        {
+          "id": "0735",
+          "name": "sit-up v. 2",
+          "equipment": "body weight",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "id": "Cable_Crossover",
+      "zh": "绳索夹胸",
+      "en": "Cable Crossover",
+      "suggestions": [
+        {
+          "id": "1320",
+          "name": "cable rope crossover seated row",
+          "equipment": "cable",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "id": "Kettlebell_Push_Press",
+      "zh": "壶铃借力推举",
+      "en": "Kettlebell Push Press",
+      "suggestions": [
+        {
+          "id": "0528",
+          "name": "kettlebell double push press",
+          "equipment": "kettlebell",
+          "score": 0.75
+        },
+        {
+          "id": "0540",
+          "name": "kettlebell one arm push press",
+          "equipment": "kettlebell",
+          "score": 0.6
+        },
+        {
+          "id": "1700",
+          "name": "dumbbell push press",
+          "equipment": "dumbbell",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "id": "Kettlebell_Romanian_Deadlift",
+      "zh": "壶铃罗马尼亚硬拉",
+      "en": "Kettlebell Romanian Deadlift",
+      "suggestions": [
+        {
+          "id": "0085",
+          "name": "barbell romanian deadlift",
+          "equipment": "barbell",
+          "score": 0.5
+        },
+        {
+          "id": "1459",
+          "name": "dumbbell romanian deadlift",
+          "equipment": "dumbbell",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "id": "Pec_Deck_Fly",
+      "zh": "蝴蝶机夹胸",
+      "en": "Pec Deck Fly",
+      "suggestions": []
+    },
+    {
+      "id": "Incline_Machine_Press",
+      "zh": "上斜器械推胸",
+      "en": "Incline Machine Press",
+      "suggestions": [
+        {
+          "id": "0047",
+          "name": "barbell incline bench press",
+          "equipment": "barbell",
+          "score": 0.4
+        },
+        {
+          "id": "0169",
+          "name": "cable incline bench press",
+          "equipment": "cable",
+          "score": 0.4
+        },
+        {
+          "id": "3545",
+          "name": "dumbbell incline alternate press",
+          "equipment": "dumbbell",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "id": "Cable_Tricep_Pushdown",
+      "zh": "直杆绳索下压",
+      "en": "Cable Tricep Pushdown",
+      "suggestions": [
+        {
+          "id": "0241",
+          "name": "cable triceps pushdown (v-bar)",
+          "equipment": "cable",
+          "score": 0.75
+        },
+        {
+          "id": "0201",
+          "name": "cable pushdown",
+          "equipment": "cable",
+          "score": 0.6666666666666666
+        },
+        {
+          "id": "1723",
+          "name": "cable one arm tricep pushdown",
+          "equipment": "cable",
+          "score": 0.6
+        }
+      ]
+    },
+    {
+      "id": "Machine_Bicep_Curl",
+      "zh": "器械二头弯举",
+      "en": "Machine Bicep Curl",
+      "suggestions": [
+        {
+          "id": "1683",
+          "name": "smith machine bicep curl",
+          "equipment": "smith machine",
+          "score": 0.75
+        },
+        {
+          "id": "0294",
+          "name": "dumbbell biceps curl",
+          "equipment": "dumbbell",
+          "score": 0.5
+        },
+        {
+          "id": "0575",
+          "name": "lever bicep curl",
+          "equipment": "leverage machine",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "id": "High_Cable_Curl",
+      "zh": "高位绳索弯举",
+      "en": "High Cable Curl",
+      "suggestions": [
+        {
+          "id": "0868",
+          "name": "cable curl",
+          "equipment": "cable",
+          "score": 0.6666666666666666
+        },
+        {
+          "id": "1631",
+          "name": "cable concentration curl",
+          "equipment": "cable",
+          "score": 0.5
+        },
+        {
+          "id": "1632",
+          "name": "cable drag curl",
+          "equipment": "cable",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "id": "Hack_Squat",
+      "zh": "哈克深蹲",
+      "en": "Hack Squat",
+      "suggestions": [
+        {
+          "id": "0046",
+          "name": "barbell hack squat",
+          "equipment": "barbell",
+          "score": 0.6666666666666666
+        },
+        {
+          "id": "0743",
+          "name": "sled hack squat",
+          "equipment": "sled machine",
+          "score": 0.6666666666666666
+        },
+        {
+          "id": "0755",
+          "name": "smith hack squat",
+          "equipment": "smith machine",
+          "score": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "id": "Glute_Kickback_Machine",
+      "zh": "器械臀部后踢",
+      "en": "Glute Kickback Machine",
+      "suggestions": []
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "Leverage_Chest_Press",
+      "zh": "器械坐姿推胸",
+      "en": "Machine Chest Press",
+      "candidates": [
+        {
+          "id": "0577",
+          "name": "lever chest press",
+          "equipment": "leverage machine"
+        },
+        {
+          "id": "0576",
+          "name": "lever chest press",
+          "equipment": "leverage machine"
+        }
+      ]
+    }
+  ],
+  "mediaImported": false,
+  "mediaReason": "Gym Visual images and GIFs are excluded because cloning the repository does not grant a reuse license.",
+  "deduplicatedSecondaryRecords": 135,
+  "addedSecondaryRecords": 741,
+  "secondaryMediaImported": false,
+  "secondaryMediaReason": "Free Exercise DB image origins are not independently verified, so only public-domain text and metadata are imported.",
+  "tertiaryEligibleRecords": 848,
+  "deduplicatedTertiaryRecords": 77,
+  "addedTertiaryRecords": 771,
+  "tertiaryExcludedRecords": 23,
+  "tertiaryMediaImported": false,
+  "tertiaryMediaReason": "wger exercise text is imported with per-record attribution. Images and videos remain in the separate media review pipeline.",
+  "catalogExerciseCount": 2836
+}

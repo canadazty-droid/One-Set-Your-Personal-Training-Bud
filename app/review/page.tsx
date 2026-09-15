@@ -1,0 +1,10 @@
+"use client";
+import { useEffect, useState } from "react";
+import { OsNav } from "../os-nav";
+
+export default function ReviewPage() {
+  const [review, setReview] = useState<any>(null); const [status, setStatus] = useState("loading");
+  useEffect(() => { fetch("/api/review").then(async r => { if (!r.ok) throw new Error(); return r.json(); }).then(data => { setReview(data.review); setStatus("ready"); }).catch(() => setStatus("error")); }, []);
+  async function adjust() { setStatus("adjusting"); const response = await fetch("/api/plans/adjust", { method: "POST" }); setStatus(response.ok ? "adjusted" : "error"); }
+  return <><OsNav current="/review"/><main className="os-page"><section className="os-heading"><div><small>LAST 7 DAYS</small><h1>Weekly review.</h1></div></section>{status === "loading" ? <p className="os-loading">Calculating from your logs…</p> : status === "error" ? <section className="os-empty"><h2>A review needs saved training data.</h2><p>Sign in, generate a plan, and log your sessions first.</p></section> : <div className="os-review"><article className="os-review-score"><small>COMPLETION</small><strong>{review.completion_rate}<i>%</i></strong><p>{review.missed_workouts} planned workouts missed</p></article><article><small>ENERGY</small><strong>{review.average_energy || "—"}<i>/10</i></strong></article><article><small>SORENESS</small><strong>{review.average_soreness || "—"}<i>/10</i></strong></article><article className="wide"><small>RISK FLAGS</small><p>{review.risk_flags.length ? review.risk_flags.join(" · ").replaceAll("_", " ") : "No recovery risk flags detected."}</p></article><article className="wide os-decision"><small>NEXT-WEEK DECISION</small><h2>{review.next_week_adjustment.replaceAll("_", " ")}</h2><p>The adjustment is deterministic and based only on completion, energy, and soreness.</p><button onClick={adjust} disabled={status === "adjusting" || status === "adjusted"}>{status === "adjusted" ? "New plan version created ✓" : status === "adjusting" ? "Creating version…" : "Apply as a new plan version →"}</button></article></div>}</main></>;
+}

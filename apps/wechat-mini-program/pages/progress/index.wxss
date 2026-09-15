@@ -1,0 +1,8 @@
+.month-card { margin-top: 34rpx; padding: 32rpx; border-radius: 30rpx; color: #fff; background: #11110f; }
+.metric-unit { font-size: 28rpx; font-weight: 750; }
+.streak { margin-top: 18rpx; padding: 30rpx; border: 2rpx solid #d4cec1; border-radius: 28rpx; background: #fbf9f2; display: flex; align-items: center; justify-content: space-between; }
+.flame { width: 112rpx; height: 112rpx; border-radius: 56rpx; color: #fff; background: #f04422; font-size: 20rpx; font-weight: 900; letter-spacing: 2rpx; display: flex; align-items: center; justify-content: center; }
+.record-row, .recent-row { min-height: 100rpx; border-bottom: 2rpx solid #ddd7cb; display: flex; align-items: center; justify-content: space-between; gap: 20rpx; }
+.record-number { font-family: "DIN Alternate", sans-serif; font-size: 34rpx; font-weight: 900; }
+.skeleton { height: 42rpx; border-radius: 12rpx; background: #e3ddd1; }
+.skeleton.short { width: 60%; margin-top: 20rpx; }

@@ -1,0 +1,13 @@
+{
+  "appid": "touristappid",
+  "projectname": "one-set-wechat",
+  "compileType": "miniprogram",
+  "miniprogramRoot": "./",
+  "setting": {
+    "useCompilerPlugins": false,
+    "es6": true,
+    "minified": true,
+    "postcss": true,
+    "urlCheck": true
+  }
+}

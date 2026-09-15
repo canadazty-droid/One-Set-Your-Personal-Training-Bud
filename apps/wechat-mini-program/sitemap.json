@@ -1,0 +1,4 @@
+{
+  "desc": "ONE SET 微信小程序页面索引",
+  "rules": [{ "action": "disallow", "page": "*" }]
+}

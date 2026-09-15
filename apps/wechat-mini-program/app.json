@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/today/index",
+    "pages/workout/index",
+    "pages/plans/index",
+    "pages/progress/index",
+    "pages/profile/index",
+    "pages/onboarding/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "ONE SET",
+    "navigationBarBackgroundColor": "#F4F1E8",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#F4F1E8",
+    "backgroundTextStyle": "dark"
+  },
+  "tabBar": {
+    "color": "#78756E",
+    "selectedColor": "#10100F",
+    "backgroundColor": "#FAF8F1",
+    "borderStyle": "black",
+    "list": [
+      { "pagePath": "pages/today/index", "text": "今天" },
+      { "pagePath": "pages/workout/index", "text": "训练" },
+      { "pagePath": "pages/plans/index", "text": "计划" },
+      { "pagePath": "pages/progress/index", "text": "进度" },
+      { "pagePath": "pages/profile/index", "text": "我的" }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

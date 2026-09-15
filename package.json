@@ -1,0 +1,57 @@
+{
+  "name": "form-by-purefitness",
+  "version": "0.1.0",
+  "private": true,
+  "bin": {
+    "fitness-cli": "cli/form.mjs",
+    "oneset": "cli/form.mjs"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "vinext dev",
+    "build": "vinext build",
+    "start": "vinext start",
+    "test": "node --test \"tests/*.test.mjs\"",
+    "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
+    "db:generate": "drizzle-kit generate",
+    "mcp": "node mcp/server.mjs",
+    "form": "node cli/form.mjs",
+    "seed": "node scripts/seed.mjs"
+    ,"wechat:build": "node scripts/build-wechat.mjs"
+    ,"wechat:test": "npm run wechat:build && node --test tests/wechat-domain.test.mjs"
+    ,"media:audit": "node scripts/audit-tutorial-coverage.mjs"
+    ,"media:research": "node scripts/research-exercise-tutorials.mjs"
+    ,"media:import:wger": "node scripts/import-wger-tutorials.mjs"
+    ,"media:import:ymove": "node scripts/import-ymove-tutorials.mjs"
+    ,"media:import:commons": "node scripts/import-commons-tutorials.mjs"
+    ,"data:import:exercises": "node scripts/import-exercises-dataset.mjs"
+  },
+  "dependencies": {
+    "drizzle-orm": "0.45.2",
+    "lucide-react": "^0.468.0",
+    "next": "16.2.6",
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "1.37.1",
+    "@tailwindcss/postcss": "4.2.1",
+    "@types/node": "22.19.19",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "6.0.2",
+    "@vitejs/plugin-rsc": "0.5.26",
+    "drizzle-kit": "0.31.10",
+    "eslint": "9.39.4",
+    "eslint-config-next": "16.2.6",
+    "react-server-dom-webpack": "19.2.6",
+    "tailwindcss": "4.2.1",
+    "typescript": "5.9.3",
+    "vinext": "0.0.50",
+    "vite": "8.0.13",
+    "wrangler": "4.92.0"
+  },
+  "type": "module"
+}

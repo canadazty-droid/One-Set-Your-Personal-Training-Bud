@@ -1,0 +1,8 @@
+.progress { height: 8rpx; margin-top: 24rpx; border-radius: 99rpx; background: #ded8cc; overflow: hidden; }
+.progress-fill { height: 100%; background: #f04422; }
+.options { display: grid; gap: 18rpx; margin-top: 48rpx; }
+.option { min-height: 104rpx; margin: 0; padding: 0 28rpx; border-radius: 24rpx; border: 2rpx solid #cbc4b7; background: #fbf9f2; font-size: 32rpx; font-weight: 800; display: flex; align-items: center; justify-content: space-between; }
+.option::after { border: none; }
+.option.selected { color: #fff; background: #11110f; border-color: #11110f; }
+.actions { position: fixed; left: 32rpx; right: 32rpx; bottom: calc(28rpx + env(safe-area-inset-bottom)); display: grid; grid-template-columns: 1fr 2fr; gap: 16rpx; }
+.actions .primary:only-child { grid-column: 1 / -1; }

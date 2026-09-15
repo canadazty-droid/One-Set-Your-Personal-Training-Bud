@@ -1,0 +1,36 @@
+page {
+  background: #f4f1e8;
+  color: #11110f;
+  font-size: 32rpx;
+}
+
+view, text, button, input, textarea { box-sizing: border-box; }
+
+.page { min-height: 100vh; padding: 36rpx 32rpx calc(48rpx + env(safe-area-inset-bottom)); }
+.eyebrow { font-size: 22rpx; font-weight: 800; letter-spacing: 4rpx; color: #6d6961; }
+.title { margin-top: 18rpx; font-size: 64rpx; line-height: 1.04; font-weight: 900; letter-spacing: -2rpx; }
+.subtitle { margin-top: 16rpx; color: #66625b; font-size: 28rpx; line-height: 1.55; }
+.section { margin-top: 40rpx; }
+.section-title { font-size: 34rpx; line-height: 1.2; font-weight: 850; }
+.card { margin-top: 20rpx; padding: 28rpx; border: 2rpx solid #d8d2c5; border-radius: 28rpx; background: #fbf9f2; box-shadow: 0 10rpx 30rpx rgba(39, 33, 22, .06); }
+.primary, .secondary, .quiet { min-height: 96rpx; border-radius: 24rpx; font-size: 32rpx; font-weight: 800; display: flex; align-items: center; justify-content: center; }
+.primary { color: #fff; background: #f04422; border: 2rpx solid #f04422; }
+.primary::after, .secondary::after, .quiet::after { border: none; }
+.secondary { color: #11110f; background: #fbf9f2; border: 2rpx solid #11110f; }
+.quiet { min-height: 80rpx; color: #3f3b35; background: transparent; border: 2rpx solid #d4cec1; }
+.primary[disabled], .secondary[disabled] { opacity: .45; }
+.input, .textarea { width: 100%; border: 2rpx solid #cbc4b7; border-radius: 22rpx; background: #fffdf8; color: #11110f; font-size: 32rpx; }
+.input { min-height: 92rpx; padding: 0 24rpx; }
+.textarea { min-height: 180rpx; padding: 24rpx; line-height: 1.5; }
+.label { display: block; margin-bottom: 14rpx; font-size: 26rpx; font-weight: 750; color: #514d46; }
+.row { display: flex; align-items: center; gap: 16rpx; }
+.between { justify-content: space-between; }
+.chip-row { display: flex; flex-wrap: wrap; gap: 14rpx; margin-top: 20rpx; }
+.chip { min-height: 72rpx; padding: 0 22rpx; border-radius: 999rpx; border: 2rpx solid #cbc4b7; background: #fbf9f2; color: #25231f; font-size: 26rpx; display: flex; align-items: center; }
+.chip.active { color: #fff; background: #11110f; border-color: #11110f; }
+.metric { font-family: "DIN Alternate", "WeChat Sans Std", sans-serif; font-size: 72rpx; line-height: 1; font-weight: 900; }
+.muted { color: #777168; }
+.divider { height: 2rpx; background: #ded8cc; margin: 24rpx 0; }
+.status { padding: 16rpx 20rpx; border-radius: 16rpx; background: #ebe6dc; color: #554f46; font-size: 25rpx; line-height: 1.45; }
+.danger { color: #9c2e19; }
+.safe-bottom { height: calc(20rpx + env(safe-area-inset-bottom)); }

@@ -1,0 +1,1 @@
+export function buildSevenDayReview(logs: unknown[], plannedWorkouts?: number, now?: Date): {plannedWorkouts:number;completedWorkouts:number;completionRate:number;averageEnergy:number;averageSoreness:number;averageDifficulty:number;riskFlags:string[];nextWorkoutSuggestion:string;nextWeekAdjustment:string;recent:unknown[]};

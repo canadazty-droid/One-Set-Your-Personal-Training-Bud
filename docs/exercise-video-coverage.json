@@ -1,0 +1,651 @@
+{
+  "generatedAt": "2026-09-01T21:46:55.209Z",
+  "totalExercises": 107,
+  "licensedRealVideoCount": 47,
+  "remainingCount": 60,
+  "coveragePercent": 43.9,
+  "exercises": [
+    {
+      "id": "Wall_Push-Up",
+      "zh": "墙面俯卧撑",
+      "en": "Wall Push-up",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Kneeling_Push-Up",
+      "zh": "跪姿俯卧撑",
+      "en": "Kneeling Push-up",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Bodyweight_Box_Squat",
+      "zh": "徒手箱式深蹲",
+      "en": "Bodyweight Box Squat",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Supported_Split_Squat",
+      "zh": "扶物分腿蹲",
+      "en": "Supported Split Squat",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Dumbbell_Romanian_Deadlift",
+      "zh": "哑铃罗马尼亚硬拉",
+      "en": "Dumbbell Romanian Deadlift",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Chest-Supported_Dumbbell_Row",
+      "zh": "俯卧哑铃划船",
+      "en": "Chest-supported Dumbbell Row",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Bird_Dog",
+      "zh": "鸟狗式",
+      "en": "Bird Dog",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Kneeling_Side_Plank",
+      "zh": "跪姿侧平板",
+      "en": "Kneeling Side Plank",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Incline_Push-Up",
+      "zh": "斜板俯卧撑",
+      "en": "Incline Push-up",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Bodyweight_Squat",
+      "zh": "徒手深蹲",
+      "en": "Bodyweight Squat",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Butt_Lift_Bridge",
+      "zh": "双腿臀桥",
+      "en": "Glute Bridge",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Leverage_Chest_Press",
+      "zh": "器械坐姿推胸",
+      "en": "Machine Chest Press",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Leg_Extensions",
+      "zh": "坐姿腿屈伸",
+      "en": "Leg Extension",
+      "hasLicensedRealVideo": true
+    },
+    {
+      "id": "Lying_Leg_Curls",
+      "zh": "俯卧腿弯举",
+      "en": "Lying Leg Curl",
+      "hasLicensedRealVideo": true
+    },
+    {
+      "id": "Hammer_Curls",
+      "zh": "哑铃锤式弯举",
+      "en": "Hammer Curl",
+      "hasLicensedRealVideo": true
+    },
+    {
+      "id": "Triceps_Pushdown_-_Rope_Attachment",
+      "zh": "绳索下压",
+      "en": "Rope Triceps Pushdown",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Side_Lateral_Raise",
+      "zh": "哑铃侧平举",
+      "en": "Dumbbell Lateral Raise",
+      "hasLicensedRealVideo": true
+    },
+    {
+      "id": "Hyperextensions_Back_Extensions",
+      "zh": "罗马椅背伸",
+      "en": "Back Extension",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Crunches",
+      "zh": "基础卷腹",
+      "en": "Crunch",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Seated_Dumbbell_Press",
+      "zh": "坐姿哑铃推举",
+      "en": "Seated Dumbbell Press",
+      "hasLicensedRealVideo": true
+    },
+    {
+      "id": "Dumbbell_Step_Ups",
+      "zh": "哑铃登阶",
+      "en": "Dumbbell Step-up",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Standing_Calf_Raises",
+      "zh": "站姿提踵",
+      "en": "Standing Calf Raise",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Standing_Calf_Raise_Machine",
+      "zh": "站姿提踵机",
+      "en": "Standing Calf Raise Machine",
+      "hasLicensedRealVideo": true
+    },
+    {
+      "id": "Band_Assisted_Pull-Up",
+      "zh": "弹力带辅助引体",
+      "en": "Band-assisted Pull-up",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Goblet_Squat",
+      "zh": "高脚杯深蹲",
+      "en": "Goblet Squat",
+      "hasLicensedRealVideo": true
+    },
+    {
+      "id": "Dumbbell_Lunges",
+      "zh": "哑铃弓步蹲",
+      "en": "Dumbbell Lunges",
+      "hasLicensedRealVideo": true
+    },
+    {
+      "id": "Romanian_Deadlift",
+      "zh": "罗马尼亚硬拉",
+      "en": "Romanian Deadlift",
+      "hasLicensedRealVideo": true
+    },
+    {
+      "id": "Barbell_Hip_Thrust",
+      "zh": "杠铃臀推",
+      "en": "Barbell Hip Thrust",
+      "hasLicensedRealVideo": true
+    },
+    {
+      "id": "Leg_Press",
+      "zh": "腿举",
+      "en": "Leg Press",
+      "hasLicensedRealVideo": true
+    },
+    {
+      "id": "Calf_Raise_On_A_Dumbbell",
+      "zh": "单腿哑铃提踵",
+      "en": "Single-leg Dumbbell Calf Raise",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Dumbbell_Bench_Press",
+      "zh": "哑铃卧推",
+      "en": "Dumbbell Bench Press",
+      "hasLicensedRealVideo": true
+    },
+    {
+      "id": "Pushups",
+      "zh": "俯卧撑",
+      "en": "Push-up",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Dumbbell_Flyes",
+      "zh": "哑铃飞鸟",
+      "en": "Dumbbell Flyes",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "One-Arm_Dumbbell_Row",
+      "zh": "单臂哑铃划船",
+      "en": "One-arm Dumbbell Row",
+      "hasLicensedRealVideo": true
+    },
+    {
+      "id": "Full_Range-Of-Motion_Lat_Pulldown",
+      "zh": "高位下拉",
+      "en": "Lat Pulldown",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Seated_Cable_Rows",
+      "zh": "坐姿绳索划船",
+      "en": "Seated Cable Row",
+      "hasLicensedRealVideo": true
+    },
+    {
+      "id": "Arnold_Dumbbell_Press",
+      "zh": "阿诺德推举",
+      "en": "Arnold Dumbbell Press",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Front_Dumbbell_Raise",
+      "zh": "哑铃前平举",
+      "en": "Front Dumbbell Raise",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Face_Pull",
+      "zh": "绳索面拉",
+      "en": "Face Pull",
+      "hasLicensedRealVideo": true
+    },
+    {
+      "id": "Dumbbell_Bicep_Curl",
+      "zh": "哑铃弯举",
+      "en": "Dumbbell Biceps Curl",
+      "hasLicensedRealVideo": true
+    },
+    {
+      "id": "Cable_Rope_Overhead_Triceps_Extension",
+      "zh": "绳索过顶臂屈伸",
+      "en": "Rope Overhead Triceps Extension",
+      "hasLicensedRealVideo": true
+    },
+    {
+      "id": "Close-Grip_Push-Up_off_of_a_Dumbbell",
+      "zh": "窄距哑铃俯卧撑",
+      "en": "Close-grip Dumbbell Push-up",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Plank",
+      "zh": "前臂平板支撑",
+      "en": "Forearm Plank",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Dead_Bug",
+      "zh": "死虫式",
+      "en": "Dead Bug",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Russian_Twist",
+      "zh": "俄罗斯转体",
+      "en": "Russian Twist",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Cable_Crunch",
+      "zh": "跪姿绳索卷腹",
+      "en": "Cable Crunch",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Air_Bike",
+      "zh": "空中自行车卷腹",
+      "en": "Air Bike",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Single_Leg_Glute_Bridge",
+      "zh": "单腿臀桥",
+      "en": "Single-leg Glute Bridge",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Dumbbell_Floor_Press",
+      "zh": "哑铃地板卧推",
+      "en": "Dumbbell Floor Press",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Half-Kneeling_Single-Arm_Dumbbell_Press",
+      "zh": "半跪单臂哑铃推举",
+      "en": "Half-kneeling Single-arm Dumbbell Press",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Supported_Low_Step-Up",
+      "zh": "扶物低台阶上步",
+      "en": "Supported Low Step-up",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Cable_Pallof_Press",
+      "zh": "绳索 Pallof 抗旋推",
+      "en": "Cable Pallof Press",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Side-Lying_Clamshell",
+      "zh": "侧卧蚌式开合",
+      "en": "Side-lying Clamshell",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Suitcase_Carry",
+      "zh": "单侧哑铃行走",
+      "en": "Suitcase Carry",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Kettlebell_Suitcase_Carry",
+      "zh": "壶铃单侧负重行走",
+      "en": "Kettlebell Suitcase Carry",
+      "hasLicensedRealVideo": true
+    },
+    {
+      "id": "Hanging_Knee_Raise",
+      "zh": "悬垂举膝",
+      "en": "Hanging Knee Raise",
+      "hasLicensedRealVideo": true
+    },
+    {
+      "id": "Hanging_Leg_Raise",
+      "zh": "悬垂直腿举",
+      "en": "Hanging Leg Raise",
+      "hasLicensedRealVideo": true
+    },
+    {
+      "id": "Wall_Slide",
+      "zh": "墙面滑臂",
+      "en": "Wall Slide",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Cable_Pull-Through",
+      "zh": "绳索髋铰链",
+      "en": "Cable Pull-through",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Machine_Shoulder_Press",
+      "zh": "机器肩推",
+      "en": "Machine Shoulder Press",
+      "hasLicensedRealVideo": true
+    },
+    {
+      "id": "Machine_Hip_Abduction",
+      "zh": "坐姿髋外展机",
+      "en": "Seated Hip Abduction",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Standing_Cable_Chest_Press",
+      "zh": "站姿绳索推胸",
+      "en": "Standing Cable Chest Press",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Straight-Arm_Cable_Pulldown",
+      "zh": "直臂绳索下拉",
+      "en": "Straight-arm Cable Pulldown",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Supported_Reverse_Lunge",
+      "zh": "扶物反向弓步",
+      "en": "Supported Reverse Lunge",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Kettlebell_Deadlift",
+      "zh": "壶铃硬拉",
+      "en": "Kettlebell Deadlift",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Seated_Leg_Curl",
+      "zh": "坐姿腿弯举",
+      "en": "Seated Leg Curl",
+      "hasLicensedRealVideo": true
+    },
+    {
+      "id": "Incline_Dumbbell_Press",
+      "zh": "上斜哑铃卧推",
+      "en": "Incline Dumbbell Press",
+      "hasLicensedRealVideo": true
+    },
+    {
+      "id": "Assisted_Dip_Machine",
+      "zh": "辅助双杠臂屈伸",
+      "en": "Assisted Dip Machine",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Reverse_Pec_Deck",
+      "zh": "反向蝴蝶机",
+      "en": "Reverse Pec Deck",
+      "hasLicensedRealVideo": true
+    },
+    {
+      "id": "Cable_Biceps_Curl",
+      "zh": "站姿绳索弯举",
+      "en": "Cable Biceps Curl",
+      "hasLicensedRealVideo": true
+    },
+    {
+      "id": "Neutral-Grip_Lat_Pulldown",
+      "zh": "窄中立握高位下拉",
+      "en": "Neutral-grip Lat Pulldown",
+      "hasLicensedRealVideo": true
+    },
+    {
+      "id": "Machine_Hip_Adduction",
+      "zh": "坐姿髋内收机",
+      "en": "Seated Hip Adduction",
+      "hasLicensedRealVideo": true
+    },
+    {
+      "id": "Seated_Calf_Raise",
+      "zh": "坐姿提踵机",
+      "en": "Seated Calf Raise",
+      "hasLicensedRealVideo": true
+    },
+    {
+      "id": "Half-Kneeling_Landmine_Press",
+      "zh": "半跪单臂地雷管推举",
+      "en": "Half-kneeling Landmine Press",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Cable_Wood_Chop",
+      "zh": "高位绳索伐木式",
+      "en": "High-to-low Cable Wood Chop",
+      "hasLicensedRealVideo": true
+    },
+    {
+      "id": "Cat-Cow",
+      "zh": "猫牛式脊柱活动",
+      "en": "Cat-Cow Mobility",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "90-90_Hip_Switch",
+      "zh": "90/90 髋部转换",
+      "en": "90/90 Hip Switch",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Half-Kneeling_Hip-Flexor_Mobilization",
+      "zh": "半跪髋屈肌动态拉伸",
+      "en": "Half-kneeling Hip Flexor Mobilization",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Half-Kneeling_Ankle_Rock",
+      "zh": "半跪踝背屈前移",
+      "en": "Half-kneeling Ankle Rock",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Cable_Rear_Delt_Fly",
+      "zh": "双滑轮后束飞鸟",
+      "en": "Cable Rear Delt Fly",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Cable_Preacher_Curl",
+      "zh": "绳索牧师凳弯举",
+      "en": "Cable Preacher Curl",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Cable_One_Arm_Tricep_Extension",
+      "zh": "单臂绳索下压",
+      "en": "Single-arm Cable Triceps Extension",
+      "hasLicensedRealVideo": true
+    },
+    {
+      "id": "Incline_Dumbbell_Curl",
+      "zh": "上斜哑铃弯举",
+      "en": "Incline Dumbbell Curl",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Dumbbell_Shrug",
+      "zh": "哑铃耸肩",
+      "en": "Dumbbell Shrug",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Bent-Arm_Dumbbell_Pullover",
+      "zh": "屈臂哑铃上拉",
+      "en": "Bent-arm Dumbbell Pullover",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Standing_Calf_Raise",
+      "zh": "站姿提踵",
+      "en": "Standing Calf Raise",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Wall_Tibialis_Raise",
+      "zh": "墙面抬脚",
+      "en": "Wall Tibialis Raise",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Wall_Sit",
+      "zh": "靠墙静蹲",
+      "en": "Wall Sit",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Barbell_Bench_Press_-_Medium_Grip",
+      "zh": "杠铃卧推",
+      "en": "Barbell Bench Press",
+      "hasLicensedRealVideo": true
+    },
+    {
+      "id": "Bent_Over_Barbell_Row",
+      "zh": "杠铃俯身划船",
+      "en": "Bent-over Barbell Row",
+      "hasLicensedRealVideo": true
+    },
+    {
+      "id": "Barbell_Deadlift",
+      "zh": "杠铃传统硬拉",
+      "en": "Barbell Deadlift",
+      "hasLicensedRealVideo": true
+    },
+    {
+      "id": "Barbell_Full_Squat",
+      "zh": "杠铃深蹲",
+      "en": "Barbell Back Squat",
+      "hasLicensedRealVideo": true
+    },
+    {
+      "id": "Cable_Crossover",
+      "zh": "绳索夹胸",
+      "en": "Cable Crossover",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Pullups",
+      "zh": "引体向上",
+      "en": "Pull-up",
+      "hasLicensedRealVideo": true
+    },
+    {
+      "id": "Dips_-_Triceps_Version",
+      "zh": "双杠臂屈伸",
+      "en": "Triceps Dip",
+      "hasLicensedRealVideo": true
+    },
+    {
+      "id": "EZ-Bar_Curl",
+      "zh": "EZ 杠弯举",
+      "en": "EZ-bar Curl",
+      "hasLicensedRealVideo": false
+    },
+    {
+      "id": "Kettlebell_Swing",
+      "zh": "壶铃摆动",
+      "en": "Kettlebell Swing",
+      "hasLicensedRealVideo": true
+    },
+    {
+      "id": "Kettlebell_Push_Press",
+      "zh": "壶铃借力推举",
+      "en": "Kettlebell Push Press",
+      "hasLicensedRealVideo": true
+    },
+    {
+      "id": "Kettlebell_Romanian_Deadlift",
+      "zh": "壶铃罗马尼亚硬拉",
+      "en": "Kettlebell Romanian Deadlift",
+      "hasLicensedRealVideo": true
+    },
+    {
+      "id": "Dumbbell_Goblet_Squat",
+      "zh": "哑铃高脚杯深蹲",
+      "en": "Dumbbell Goblet Squat",
+      "hasLicensedRealVideo": true
+    },
+    {
+      "id": "Pec_Deck_Fly",
+      "zh": "蝴蝶机夹胸",
+      "en": "Pec Deck Fly",
+      "hasLicensedRealVideo": true
+    },
+    {
+      "id": "Incline_Machine_Press",
+      "zh": "上斜器械推胸",
+      "en": "Incline Machine Press",
+      "hasLicensedRealVideo": true
+    },
+    {
+      "id": "Cable_Tricep_Pushdown",
+      "zh": "直杆绳索下压",
+      "en": "Cable Tricep Pushdown",
+      "hasLicensedRealVideo": true
+    },
+    {
+      "id": "Machine_Bicep_Curl",
+      "zh": "器械二头弯举",
+      "en": "Machine Bicep Curl",
+      "hasLicensedRealVideo": true
+    },
+    {
+      "id": "High_Cable_Curl",
+      "zh": "高位绳索弯举",
+      "en": "High Cable Curl",
+      "hasLicensedRealVideo": true
+    },
+    {
+      "id": "Hack_Squat",
+      "zh": "哈克深蹲",
+      "en": "Hack Squat",
+      "hasLicensedRealVideo": true
+    },
+    {
+      "id": "Glute_Kickback_Machine",
+      "zh": "器械臀部后踢",
+      "en": "Glute Kickback Machine",
+      "hasLicensedRealVideo": true
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+<view class="page">
+  <text class="eyebrow">PROFILE</text>
+  <view class="title">我的</view>
+  <view class="account-card">
+    <view class="avatar">OS</view>
+    <view><view style="font-weight:900; font-size:36rpx;">ONE SET 用户</view><view class="muted" style="font-size:25rpx; margin-top:6rpx;">{{connected ? '微信账号已连接' : '本机模式 · 云同步待配置'}}</view></view>
+  </view>
+
+  <view class="section">
+    <view class="section-title">训练档案</view>
+    <view class="card" wx:if="{{profile}}">
+      <view class="profile-row"><text>目标</text><text>{{labels[profile.goal]}}</text></view>
+      <view class="profile-row"><text>经验</text><text>{{labels[profile.level]}}</text></view>
+      <view class="profile-row"><text>器械</text><text>{{labels[profile.equipment]}}</text></view>
+      <view class="profile-row"><text>每周频率</text><text>{{profile.weeklyDays}} 次</text></view>
+      <view class="profile-row"><text>偏好时长</text><text>{{profile.sessionLengthMinutes}} 分钟</text></view>
+    </view>
+    <view class="card muted" wx:else>完成 30 秒设置后，训练会更贴合你。</view>
+    <button class="secondary" style="margin-top:18rpx;" bindtap="editOnboarding">{{profile ? '修改训练档案' : '开始设置'}}</button>
+  </view>
+
+  <view class="section">
+    <view class="section-title">数据与隐私</view>
+    <button class="settings-row" loading="{{exporting}}" bindtap="exportData"><text>导出我的数据</text><text>›</text></button>
+    <button class="settings-row danger" bindtap="clearData"><text>删除本机数据</text><text>›</text></button>
+    <view class="status" style="margin-top:18rpx;">训练与身体相关数据默认仅用于你的训练记录和进度分析，不会出现在分享卡片中。</view>
+  </view>
+</view>

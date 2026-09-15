@@ -1,0 +1,32 @@
+<view class="page onboarding">
+  <view class="row between">
+    <text class="eyebrow">ONE SET · {{step + 1}} / 4</text>
+    <text class="muted" style="font-size:24rpx;">大约 30 秒</text>
+  </view>
+  <view class="progress"><view class="progress-fill" style="width: {{(step + 1) * 25}}%;"></view></view>
+
+  <block wx:if="{{step < 3}}">
+    <view class="title">{{steps[step].title}}</view>
+    <view class="options">
+      <button wx:for="{{steps[step].options}}" wx:key="value" class="option {{selection[steps[step].key] === item.value ? 'selected' : ''}}" data-value="{{item.value}}" bindtap="choose">
+        <text>{{item.label}}</text><text>{{selection[steps[step].key] === item.value ? '✓' : ''}}</text>
+      </button>
+    </view>
+  </block>
+
+  <block wx:else>
+    <view class="title">你通常一周练几次？</view>
+    <view class="card">
+      <view class="row between"><text class="label">每周训练</text><text class="metric" style="font-size:56rpx;">{{selection.weeklyDays}} 次</text></view>
+      <slider min="1" max="7" step="1" value="{{selection.weeklyDays}}" activeColor="#f04422" block-color="#11110f" bindchange="changeDays" />
+      <view class="divider"></view>
+      <view class="row between"><text class="label">每次时长</text><text class="metric" style="font-size:56rpx;">{{selection.sessionLengthMinutes}} 分</text></view>
+      <slider min="20" max="90" step="5" value="{{selection.sessionLengthMinutes}}" activeColor="#f04422" block-color="#11110f" bindchange="changeMinutes" />
+    </view>
+  </block>
+
+  <view class="actions">
+    <button wx:if="{{step > 0}}" class="quiet" bindtap="back">上一步</button>
+    <button class="primary" bindtap="next">{{step === 3 ? '开始 ONE SET' : '继续'}}</button>
+  </view>
+</view>

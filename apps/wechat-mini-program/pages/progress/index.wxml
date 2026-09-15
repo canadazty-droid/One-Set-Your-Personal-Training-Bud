@@ -1,0 +1,28 @@
+<view class="page">
+  <text class="eyebrow">PROGRESS</text>
+  <view class="title">我真的在进步吗？</view>
+
+  <view wx:if="{{loading}}" class="card"><view class="skeleton"></view><view class="skeleton short"></view></view>
+  <block wx:else>
+    <view class="month-card">
+      <text class="eyebrow">本月</text>
+      <view class="metric" style="margin-top:18rpx;">{{metrics.monthCount}}<text class="metric-unit"> 次训练</text></view>
+      <view class="divider"></view>
+      <view class="row between"><text>总容量</text><text style="font-weight:850;">{{metrics.currentVolume}} kg</text></view>
+      <view class="row between" style="margin-top:18rpx;"><text>本周训练</text><text style="font-weight:850;">{{metrics.weeklyCount}} 次</text></view>
+    </view>
+    <view class="streak"><view><text class="eyebrow">连续训练</text><view class="metric" style="margin-top:10rpx;">{{metrics.streak}}<text class="metric-unit"> 天</text></view></view><view class="flame">FIRE</view></view>
+
+    <view class="section">
+      <view class="section-title">个人记录</view>
+      <view wx:if="{{!metrics.records.length}}" class="card muted">完成几次带重量的训练后，这里会显示你的 PR。</view>
+      <view wx:for="{{metrics.records}}" wx:key="name" class="record-row"><text>{{item.name}}</text><text class="record-number">{{item.weightKg}} kg × {{item.reps}}</text></view>
+    </view>
+
+    <view class="section">
+      <view class="section-title">最近训练</view>
+      <view wx:if="{{!metrics.recent.length}}" class="card muted">第一条训练记录会出现在这里。</view>
+      <view wx:for="{{metrics.recent}}" wx:key="id" class="recent-row"><view><view style="font-weight:800;">{{item.name || item.focus || '训练'}}</view><view class="muted" style="font-size:24rpx; margin-top:6rpx;">{{item.dateLabel}} · {{item.duration}} 分钟</view></view><text style="font-weight:850;">{{item.sets}} 组</text></view>
+    </view>
+  </block>
+</view>

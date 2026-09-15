@@ -1,0 +1,18 @@
+.exercise-name { margin-top: 52rpx; font-size: 72rpx; line-height: 1.05; font-weight: 900; }
+.last-set { margin-top: 24rpx; padding: 18rpx 22rpx; border-radius: 18rpx; background: #e8e2d7; display: flex; align-items: center; justify-content: space-between; font-size: 27rpx; }
+.rest-card { margin-top: 28rpx; padding: 22rpx 24rpx; border-radius: 24rpx; background: #11110f; color: #fff; display: flex; align-items: center; justify-content: space-between; }
+.rest-card .quiet { width: 150rpx; margin: 0; color: #fff; border-color: #7c786f; }
+.set-editor { display: grid; grid-template-columns: 1fr 1fr; gap: 20rpx; margin-top: 48rpx; }
+.number-field { min-width: 0; }
+.big-input { width: 100%; height: 136rpx; padding: 0 18rpx; border: 2rpx solid #bbb3a5; border-radius: 24rpx; background: #fffdf8; font-family: "DIN Alternate", sans-serif; font-size: 72rpx; font-weight: 900; text-align: center; }
+.unit { width: 64rpx; font-size: 28rpx; font-weight: 750; }
+.advanced-toggle { width: 100%; margin-top: 24rpx; }
+.advanced { margin-top: 16rpx; }
+.compact { margin-top: 0; }
+.chip { margin: 0; padding: 0 18rpx; }
+.complete-button { height: 112rpx; margin-top: 30rpx; border-radius: 28rpx; color: #fff; background: #f04422; font-size: 38rpx; font-weight: 900; display: flex; align-items: center; justify-content: center; }
+.complete-button::after, .finish-link::after { border: none; }
+.finish-link { margin-top: 14rpx; color: #6e685f; background: transparent; font-size: 26rpx; }
+.completion-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20rpx; margin-top: 48rpx; }
+.completion-grid > view { padding: 28rpx; border: 2rpx solid #d4cec1; border-radius: 24rpx; background: #fbf9f2; }
+.completion-grid .wide { grid-column: 1 / -1; }
