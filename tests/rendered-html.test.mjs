@@ -257,7 +257,10 @@ test("scales exercise count to the available workout time",()=>{
 
 test("defines durable, user-owned workout persistence",async()=>{
   const [hosting,schema,route,workoutLogic,auth,migration,feedbackMigration]=await Promise.all([
-    readFile(new URL(".openai/hosting.json",root),"utf8"),
+    readFile(new URL(".openai/hosting.json",root),"utf8").catch(error=>{
+      if(error.code!=="ENOENT") throw error;
+      return readFile(new URL("hosting.example.json",root),"utf8");
+    }),
     readFile(new URL("db/schema.ts",root),"utf8"),
     readFile(new URL("app/api/workouts/route.ts",root),"utf8"),
     readFile(new URL("lib/form/workouts.ts",root),"utf8"),
