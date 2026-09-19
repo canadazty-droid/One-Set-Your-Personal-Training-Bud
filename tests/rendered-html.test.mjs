@@ -446,10 +446,11 @@ test("keeps specific body areas inside the one-tap workout path",async()=>{
   assert.match(oneTap,/label htmlFor="today-request"/);
   assert.match(oneTap,/id="today-request" value=\{request\}/);
   assert.match(oneTap,/30-minute chest and back workout/);
-  assert.match(oneTap,/const \[specificAreasOpen,setSpecificAreasOpen\]=useState\(false\)/);
-  assert.match(oneTap,/className=\{`one-tap-specific-toggle \$\{specificAreasOpen\?"active":""\}`\}/);
-  assert.match(oneTap,/aria-expanded=\{specificAreasOpen\}/);
-  assert.match(oneTap,/\{specificAreasOpen&&<div className="one-tap-area"/);
+  assert.doesNotMatch(oneTap,/specificAreasOpen/);
+  assert.match(oneTap,/className="one-tap-area"><section role="group"/);
+  assert.match(oneTap,/重点练哪个部位/);
+  assert.match(oneTap,/className="home-selection-summary" role="status"/);
+  assert.match(oneTap,/disabled=\{building\} key=\{choice.id\}/);
   assert.match(styles,/\.one-tap-recommendation\{/);
   assert.match(styles,/\.one-tap-specific-toggle\{/);
   assert.match(styles,/\.one-tap-voice-guide\{/);

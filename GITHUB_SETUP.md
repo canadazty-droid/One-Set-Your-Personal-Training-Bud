@@ -8,6 +8,8 @@ archives. Uploading this repository does not change the existing hosted app.
 
 Use Node.js 22.13 or newer. Run `npm ci`, then `npm run dev`.
 Run `npm test` for the unit tests and `npm run build` for a production build.
+After building, run `npm start` to preview the built Cloudflare application
+locally. A plain Node `vinext start` cannot load its `cloudflare:` bindings.
 See `.env.example` for optional local configuration; never commit real secrets.
 
 The existing server integration targets Cloudflare Workers and D1. This is not
@@ -15,7 +17,8 @@ a promise of drop-in Vercel compatibility. Configure a deployment environment
 separately before enabling cloud account or database features.
 `hosting.example.json` documents the required logical database binding without
 identifying the existing production site. Tests use this example when no local
-`.openai/hosting.json` exists; deployment still needs its own project setup.
+`.openai/hosting.json` exists. The Vite configuration uses the same fallback for
+local builds; deployment still needs its own project setup.
 
 ## Data and readiness
 
